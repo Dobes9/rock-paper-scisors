@@ -1,0 +1,1 @@
+This is a game of Rock Paper Scisors vs the computer.  It is a test of JavaScript.
