@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <head></head>
+    <body></body>
+    
     <script>
         // computerPlay function, where rock, paper, or scissors will be chosen at random
+        let computerSelection = ['Rock', 'Paper', 'Scissors'];
+        function computerPlay() {
+            const randomChoice = computerSelection[Math.floor(Math.random() * computerSelection.length)];
+            return randomChoice;
+        }
         // playerSelection function, where players inputs rock, paper, or scissors (case insensitive)
         // game() function, where playerSelection and computerPlay inputs are taken, returns a win, lose, or draw
             // outputs for "draw", replay round?
