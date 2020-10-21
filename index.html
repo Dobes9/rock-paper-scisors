@@ -12,7 +12,7 @@
         }
         // playerSelection function, where players inputs rock, paper, or scissors (case insensitive)
         function playerSelection() { 
-            prompt("Rock, Paper, or Scissors?");
+            const response = prompt("Rock, Paper, or Scissors?");
             if // not "rock", "paper", or "scissors", reprompt user.
             else if "rock" // return "Rock" 
             else if "paper" // return "Paper"
@@ -22,10 +22,11 @@
             // can be case insensitive
         
         // game() function, where playerSelection and computerPlay inputs are taken, returns a win, lose, or draw
-        let game(playerSelection(), computerPlay())
+        function game(playerSelection(), computerPlay()) {
             if //("Rock", "Rock") || ("Paper", "Paper") || ("Scissors", "Scissors"), draw, add 0 to both player and computer scores
             if // ("Rock", "Scissors") || ("Scissors", "Paper") || ("Paper", "Rock"), win for player, add 1 to player score
             if // ("Rock", "Paper") || ("Paper", "Scissors") || ("Scissors", "Rock"), lose for players, add 1 to computer score
+        }
         // after each game, run fuction game again
         // loop function, until either player score or computer score = 5
         // at game completion, declare Player winner if player score = 5
